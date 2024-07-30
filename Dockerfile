@@ -1,6 +1,6 @@
 # Use the official Node.js image.
 # Use the LTS version for stability.
-FROM node:latest
+FROM node:lts-alpine
 
 # Set the working directory.
 WORKDIR /app
