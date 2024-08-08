@@ -13,12 +13,15 @@
     "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^5.16.6",
     "@mui/material": "^5.16.6",
+    "axios": "^1.7.2",
     "mongodb": "^6.8.0",
     "mongoose": "^8.5.2",
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
-    "recoil": "^0.7.7"
+    "recoil": "^0.7.7",
+    "sharp": "^0.33.4",
+    "use-http": "^1.0.28"
   },
   "devDependencies": {
     "@types/node": "^20",
