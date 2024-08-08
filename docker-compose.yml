@@ -9,7 +9,7 @@ services:
     ports:
       - "7373:3000"
     restart: unless-stopped
-    nvironment:
+    environment:
       MONGODB_URI: "mongodb://mongo:27017/dexterlab" # Add this line to specify the MongoDB URI
 
   mongo:
